@@ -1,0 +1,103 @@
+ /*Extra small*/
+
+ @media(max-width: 575.98px) 
+
+
+ {
+ 	.menu ul li a{
+ 		font-size: 25 px;
+ 		text-align: right;
+ 		padding: 0 0 !important;
+ 	}
+
+
+ 	/*slider start*/
+ 	.slider{
+ 		padding-bottom: 80px;
+ 	}
+ 	.carousel-indicators li {
+    
+    width: 13px;
+    height: 13px;}
+
+ 	.inspire{
+ 		margin-top: 0;
+ 	}
+
+.inspire h1{
+	font-size: 25px;
+	}
+
+.inspire ul li i{
+	font-size: 35px;
+   margin-right: 15px;
+   margin-bottom: 30px;
+}
+
+ /*small/phone*/
+ @media(min-width: 576px) and (max-width: 767.98px)
+ {
+ 	.menu ul li a{
+ 		font-size: 25 px;
+ 		text-align: right;
+ 		padding: 0 0 !important;
+ 	}
+ 	/*slider start*/
+ 	.inspire{
+ 		margin-top: 0;
+
+ 	}
+ 	
+ }
+ /*Medium/tab*/
+ @media(min-width: 766px) and (max-width: 991.98px)
+ {
+ 	.menu ul li a{
+ 		text-align: right;
+ 		padding: 0 0 !important;
+ 	}
+ 	/*slider start*/
+ 	.inspire{
+ 		margin-top: 15px;
+
+ 	}
+ 	.inspire h1{
+ 		font-size:27px !important;
+ 		margin-bottom: 15px;
+ 	}
+ 	.inspire h4{
+ 		font-size:15px !important;
+ 		margin-bottom: 15px !important;
+ 	}
+
+ 
+
+ /*Large/laptop*/
+ @media(min-width: 992px) and (max-width: 1199.98px)
+ {
+.menu ul li a{
+ 		text-align: right;
+ 		padding: 0 0 !important;
+ 	}
+ 	/*slider start*/
+ 	.inspire{
+ 		margin-top: 15px;
+
+ 	}
+ 	.inspire h1{
+ 		font-size:27px;
+ 		margin-bottom: 15px;
+ 	}
+ 	.inspire h4{
+ 		font-size:15px;
+ 		margin-bottom: 15px;
+ 	}
+
+ }
+
+
+ /*Extra large/deskstop*/
+ @media(min-width: 1200px)
+ {
+ 	
+ }

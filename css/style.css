@@ -1,0 +1,256 @@
+/*font-family: 'PT Sans', sans-serif;*/
+@font-face{
+	font-family:HelveticaNeue_Bold; 
+	src:url(../fonts/HelveticaNeue-Bold.otf);
+
+}
+body{
+	font-family: 'PT Sans', sans-serif;
+    background-color: #D2B4DE ;
+}
+
+/*header start*/
+header{
+	background-color: #D2B4DE  ;
+	
+}
+
+.menu ul li a{
+    font-family:HelveticaNeue_Bold; 
+    font-weight: 700;
+    font-size: 22px;
+    color: #010101;
+    padding:0 20px !important; 
+}
+.menu ul li:last-child a{
+    padding-right:0 !important;}
+    /*header end*/
+    /*portfolio*/
+    .portfolio{
+        margin-top: 30px;
+    }
+    .portfolio h1{
+        font-family:HelveticaNeue_Bold;
+        padding-left: 50px;
+    }
+    .portfolio h3{
+       /*   font-family:HelveticaNeue_Bold;*/
+       padding-left: 30px;
+   }
+   .main img{
+    margin-top: 50px;
+    width: 800px;
+
+}
+
+/*portfolioend*/
+
+
+
+/*slider start*/
+.slider{
+    background-color:#D2B4DE ;
+    padding-bottom: 70px;
+    margin-top: 100px;
+}
+
+
+
+
+
+/*indicator*/
+.carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: -70px; 
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: center; 
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 15%;
+    list-style: none;
+}
+.carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: #fff;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+}
+.carousel-indicators .active{
+    opacity: 1;
+    
+}
+
+/*indicator end*/
+
+
+
+.inspire{
+    margin-top:50px;
+
+}
+.inspire h1{
+
+    font-size: 32px;
+    color: #010101;
+    margin-bottom: 15px;
+
+}
+.inspire h3{
+
+    font-weight: 400;
+    font-size: 20px;
+    color: #010101;
+    margin-bottom: 20px;
+}
+.inspire p{
+    font-size: 16px;
+
+}
+
+
+/*slider end*/
+
+
+
+
+
+/*Services start*/
+
+.services{
+    margin-bottom: 50px;
+}
+
+.Services h1{
+    font-family:HelveticaNeue_Bold; 
+    padding-left: 50px;
+    margin-top: 70px;
+    margin-bottom: 50px;
+}
+.services h3{}
+.columns{
+    
+    margin: center;
+    float: left;
+    width: 32.3%;
+    padding: 30px;
+}
+
+
+.price {
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+/* Add shadows on hover */
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.6)
+}
+
+/* Pricing header */
+.price .header {
+  background-color:#BA55D3;
+  font-size: 25px;
+}
+
+/* List items */
+.price li {
+  border-bottom: 1px solid #DDA0DD;
+  padding: 20px;
+  text-align: center;
+}
+
+/* Grey list item */
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+/* The "Sign Up" button */
+.button {
+  background-color:#BA55D3;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+/*services end*/
+
+/*FOOTER*/
+.footer_content{
+    
+    width: 25%;
+    float:left;
+    margin-top:50px; 
+    
+}
+.footer_content ul{
+    float: left;
+}
+.footer_content ul li{
+    list-style: none;
+    float: left;
+}
+.footer_content ul li a{
+        font-family:'Playfair Display',serif;
+        font-weight: 300;
+    font-size: 14px;
+    text-decoration: none;
+    display: block;
+    padding: 7px;
+    color: #000000;
+}
+.links{
+    width: 19%;
+    float:right;
+    }
+    .menu ul{
+    float: right;
+}
+.links ul li{
+    list-style: none;
+    float: left;
+}
+.links ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    display: block;
+    padding: 10px;
+    color:#626262;
+    margin-top: 40px;
+
+}
+.links ul li a b{
+
+    font-size: 15px;
+   color: #000000;
+}
+.links ul li:last-child a{
+    padding-right: 0;
+}
+.b{ font-family: 'PT Sans', sans-serif ;!important}
+
+
+/*FOOTEREND*/
